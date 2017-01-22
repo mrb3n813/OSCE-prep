@@ -1,5 +1,7 @@
 #!/bin/bash
 
+
+## Note this was developed on Kali 1 therefore the output from gdb is a bit different. To use on Kali 2 successfully change each sed -e'1,9d' to sed -e'1,14d'
 function pastethis() {
 
 echo "Ok, now you can either enter all this noise into Olly if that's your jam or just proceed to generate your shellcode"
